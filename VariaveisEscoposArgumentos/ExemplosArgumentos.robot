@@ -24,3 +24,5 @@ Uma subkeyword com retorno
     [Arguments]     ${NOME_USUARIO}   ${IDADE_USUARIO}
     ${MENSAGEM}     Set Variable If    ${IDADE_USUARIO}<18    Não autorizado! O usuário ${NOME_USUARIO} é menor de idade!   OK!Usuário é maior de idade!
     [Return]        ${MENSAGEM}
+
+    
